@@ -35,4 +35,7 @@ public class Bikini implements Outfit {
     public void takeOff() {
         System.out.println("takeOffBikini");
     }
+    public void undress(){
+        System.out.println("unDress");
+    }
 }
