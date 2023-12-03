@@ -30,4 +30,9 @@ public class Bikini implements Outfit {
     public void wear() {
         System.out.println("Mặc bikini");
     }
+
+    @Override
+    public void takeOff() {
+        System.out.println("takeOffBikini");
+    }
 }
